@@ -3,7 +3,7 @@ title: "The cohomology of general tensor products on the plane"
 collection: publications
 permalink: /publication/p2brillnoether
 excerpt: 'We compute the cohomology of general tensor products of stable bundles on the projective plane.'
-date: 2021-01-01
+date: 2021-11-01
 venue: 'Selecta Mathematica'
 paperurl:
 citation: 'I. Coskun, J. Huizenga, and J. Kopper. The cohomology of general tensor products on the plane. <i>Selecta Mathematica</i> 27 no. 5 (2021), article number 94.'
