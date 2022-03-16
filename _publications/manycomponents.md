@@ -6,5 +6,5 @@ excerpt: 'We construct moduli spaces of stable bundles on surfaces with arbitrar
 date: 2022-01-01
 venue: 'Bulletin of the London Mathematical Society'
 paperurl: 'http://jmkopper.github.io/files/manycomponents.pdf'
-citation: 'I. Coskun, J. Huizenga, and J Kopper. (2022). &quot;Paper Title Number 1.&quot; <i>Bull. Lond. Math. Soc.</i> (to appear).'
+citation: 'I. Coskun, J. Huizenga, and J Kopper. (2022). Disconnected moduli spaces of stable bundles on surfaces. **Bull. Lond. Math. Soc.** (to appear).'
 ---
