@@ -1,7 +1,7 @@
 ---
 title: "The nef cone of the Hilbert scheme of points on rational elliptic surfaces and the cone conjecture"
 collection: publications
-permalink: /publication/ample
+permalink: /publication/rational-elliptic
 excerpt: 'We compute the nef cone of the Hilbert scheme of points on a general rational elliptic surface. As a consequence of our computation, we show that the Morrison-Kawamata cone conjecture holds for these nef cones.'
 date: 2022-06-08
 venue: ' Canadian Mathematical Bulletin'
