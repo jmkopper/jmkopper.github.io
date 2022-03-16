@@ -6,7 +6,7 @@ excerpt: 'We study sufficient and necessary conditions for stable vector bundles
 date: 2022-01-01
 venue: 'Communications in Algebra'
 paperurl:
-citation: 'J. Huizenga, and J Kopper. (2022). Ample stable vector bundles on rational surfaces. **Comm. Alg.** (to appear).'
+citation: 'J. Huizenga, and J Kopper. Ample stable vector bundles on rational surfaces. <i>Communications in Algebra</i> (2022), to appear.'
 ---
 
 https://doi.org/10.1080/00927872.2022.2042548
