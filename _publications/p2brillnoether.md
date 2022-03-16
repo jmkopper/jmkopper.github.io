@@ -11,4 +11,4 @@ citation: 'I. Coskun, J. Huizenga, and J. Kopper. The cohomology of general tens
 
 https://doi.org/10.1007/s00029-021-00707-5
 
-[Download paper here](http://jmkopper.github.io/files/p2brillnoether.pdf)
+[Download paper here](http://jmkopper.github.io/files/P2brillnoether.pdf)
