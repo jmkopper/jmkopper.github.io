@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "John Kopper"
-  avatar           : "kopperpic-crop.jpg"
+  avatar           : "kopperpic-cropped.jpg"
   bio              : "Mathematician / Python Coder"
   location         : "State College, PA"
   employer         :
