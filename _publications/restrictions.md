@@ -6,7 +6,7 @@ excerpt: 'Using Bridgeland stability conditions, we give sufficient criteria for
 date: 2020-10-01
 venue: 'Michigan Mathematical Journal'
 paperurl:
-citation: 'J. Huizenga, and J Kopper. Ample stable vector bundles on rational surfaces. <i>Michigan Mathematical Journal</i> 69 no. 4 (2020), 711--732..'
+citation: 'J Kopper. Stability conditions for restrictions of vector bundles on projective surfaces. <i>Michigan Mathematical Journal</i> 69 no. 4 (2020), 711--732..'
 ---
 
 https://doi.org/10.1307/mmj/1592359275
