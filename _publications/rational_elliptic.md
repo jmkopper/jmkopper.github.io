@@ -6,7 +6,7 @@ excerpt: 'We compute the nef cone of the Hilbert scheme of points on a general r
 date: 2020-06-08
 venue: ' Canadian Mathematical Bulletin'
 paperurl:
-citation: 'J Kopper. The nef cone of the Hilbert scheme of points on rational elliptic surfaces and the cone conjecture. <i>Canadian Mathematical Bulletin</i> 64 no. 1 (2020), 216--227. '
+citation: 'J. Kopper. The nef cone of the Hilbert scheme of points on rational elliptic surfaces and the cone conjecture. <i>Canadian Mathematical Bulletin</i> 64 no. 1 (2020), 216--227. '
 ---
 
 https://doi.org/10.4153/S0008439520000387
