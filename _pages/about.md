@@ -15,4 +15,4 @@ Some projects on my github:
 - A script for [converting GPS](https://github.com/jmkopper/gpx-to-csv-converter) data recorded in a .gpx file to an easier-to-use .csv.
 - Various [implementations of algorithms](https://github.com/jmkopper/math) used in Schubert calculus. See [this paper](https://jmkopper.github.io/publication/grassmannians) for an explanation.
 
-I like distance running, trail running, and mountain running. Here's my [Strava profile](https://www.strava.com/athletes/2853118).
+I like distance running, trail running, ultramarthon running, and mountain running. Here's my [Strava profile](https://www.strava.com/athletes/2853118).
