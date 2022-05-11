@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoc in the Penn State University math department, currently looking for industry jobs. I completed my Ph.D. in 2019 at UIC under the supervision of Izzet Coskun. I was a math major at UChicago before that.
+I am a postdoc in the Penn State University math department. I completed my Ph.D. in 2019 at UIC under the supervision of Izzet Coskun. I was a math major at UChicago before that.
 
 Some projects on my github:
+- A [simple HTML+js app for making graphs](https://github.com/jmkopper/graph-maker)
 - A [modified target value search algorithm](https://github.com/jmkopper/tvs) for ranking paths between given nodes in weighted directed graphs.
 - A script for [converting GPS](https://github.com/jmkopper/gpx-to-csv-converter) data recorded in a .gpx file to an easier-to-use .csv.
 - Various [implementations of algorithms](https://github.com/jmkopper/math) used in Schubert calculus. See [this paper](https://jmkopper.github.io/publication/grassmannians) for an explanation.
