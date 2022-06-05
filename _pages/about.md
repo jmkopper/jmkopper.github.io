@@ -13,7 +13,6 @@ I am a postdoc in the Penn State University math department. I completed my Ph.D
 Some projects on my github:
 - A [CTA bus tracker](https://github.com/jmkopper/CTA-tracker) written in Go. See [here](https://sheltered-brushlands-30501.herokuapp.com/) for a demo (also [here](https://sheltered-brushlands-30501.herokuapp.com/search.html) for a different UI)
 - A [simple HTML+js app for making graphs](https://github.com/jmkopper/graph-maker)
-- A [modified target value search algorithm](https://github.com/jmkopper/tvs) for ranking paths between given nodes in weighted directed graphs.
 - A script for [converting GPS](https://github.com/jmkopper/gpx-to-csv-converter) data recorded in a .gpx file to an easier-to-use .csv.
 - Various [implementations of algorithms](https://github.com/jmkopper/math) used in Schubert calculus. See [this paper](https://jmkopper.github.io/publication/grassmannians) for an explanation.
 
