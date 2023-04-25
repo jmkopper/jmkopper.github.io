@@ -7,7 +7,7 @@ tags:
   - rust
 ---
 
-Let's begin with the results, because that's why you're here. Go was faster than Rust in this test. I do not know why. When Go outperforms Rust, it means you've done something wrong in Rust. I can't tell what.
+Let's begin with the results, because that's why you're here. Go was faster than Rust in this test. I do not know why. When Go outperforms Rust, it means you've done something wrong in Rust. I can't tell what. All the code is in [this repo](https://github.com/jmkopper/Go-Throughput-Tester).
 
 The tests work as follows.
 
@@ -97,7 +97,7 @@ A final point is that it's very obvious in Rust when something is a reference an
 
 ## Building the webserver
 
-Despite my complaints about having to use a third-party package to build the server, the Rust code is remarkably short. The Go server code is 94 lines (78 SLOC on github) and the Rust server code is 66 lines (56 SLOC). How do we account for this difference? Well, there is one feature in the Go server that I didn't bother figuring out how to do in Rust: a 5 second timeout. That accounts for 5 of the lines. The rest, I think, is divided between two things
+Despite my complaints about having to use a third-party package to build the server, the Rust code is remarkably short. The Go server code is 94 lines (78 SLOC on github) and the Rust server code is 65 lines (56 SLOC). How do we account for this difference? Well, there is one feature in the Go server that I didn't bother figuring out how to do in Rust: a 5 second timeout. That accounts for 5 of the lines. The rest, I think, is divided between two things
 
 First, error handling in Rust is extremely simple. Here's the `main` function from the Rust server:
 
