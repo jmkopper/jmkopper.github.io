@@ -11,7 +11,7 @@ Let's begin with the results, because that's why you're here. Go was faster than
 
 The tests work as follows.
 
-1. The client sends a JSON request to the server. The requests are formatted like this:
+- The client sends a JSON request to the server. The requests are formatted like this:
 
 ```json
 {
@@ -24,7 +24,8 @@ The tests work as follows.
     ]
 }
 ```
-2. The server then takes the "tests", sorts them by value, then returns the sorted list of test values that are less than the budget.
+
+- The server then takes the "tests", sorts them by value, then returns the sorted list of test values that are less than the budget.
 
 Why this? I wanted the server to have to run an algorithm that is *slower* than linear time. The sorting algorithms Go and Rust use are presumably $O(n\log n)$. I wanted something slow so that the algorithm itself took up most of the processing time, rather than potentially weird things like copying data to and from memory, all of which should be done in $O(n)$ and is very hard to control for unless you're an expert in these languages.
 
