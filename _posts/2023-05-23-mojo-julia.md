@@ -15,11 +15,11 @@ tags:
 ![](/images/julia_set.png)
 *Image: the Julia set for $f(z) = z^4 + 0.6 + 0.55i$, which the author could not elegantly work into this post.*
 
-The freshly-announced [Mojo programming language](https://www.modular.com/mojo) has made some ambitious claims about its performance. The language's creators have suggested that it can be up to 35,000x faster than Python. This eye-popping claim can be retethered to reality by observing that this speed increase compares fully optimized Mojo to vanilla Python. Since most Python computations are done with packages written in C/C++, practical improvement should be smaller.
+The freshly-announced [Mojo programming language](https://www.modular.com/mojo) has made some ambitious claims about its performance. The language's creators have suggested that it can be up to 35,000x faster than Python. This eye-popping statement can be retethered to reality by observing that this speed increase compares fully optimized Mojo to vanilla Python. Since most Python computations are done with packages written in C/C++, practical improvement should be smaller.
 
 Nevertheless, the speed increase is significant enough that it merits further investigation. Some [community members have already taken up this task](https://gist.github.com/eugeneyan/1d2ea70fed81662271f784034cc30b73) and compared Mojo to Python code written with NumPy or `numba`, two of the more popular performance-oriented Python packages. I'd like to take this a step further and compare Mojo to its natural enemy: Julia.
 
-What we are unable to do, currently, is run Mojo and Julia on the same hardware. Currently, Mojo is not publicly available and can only be run in the Mojo playground web environment. I can, however, run *Python* both in the playground and on my personal machine. Therefore we can compare Mojo and Julia to Python and ask which gives more lift.
+What we are unable to do, currently, is run Mojo and Julia on the same hardware. As of writing, Mojo is not publicly available and can only be run in the Mojo playground web environment. I can, however, run *Python* both in the playground and on my personal machine. Therefore we can compare Mojo and Julia to Python and ask which gives more lift.
 
 To this end, we will implement the Mandelbrot set in all three languages and compare their execution times.
 
