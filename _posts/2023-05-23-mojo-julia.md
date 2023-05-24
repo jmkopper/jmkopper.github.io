@@ -64,7 +64,7 @@ def mandelbrot_kernel(c, maxiter):
     iter_count = np.zeros(c.shape, dtype="int")
     for i in range(maxiter):
         mask = np.abs(z) < 2
-        if np.all(mask):
+        if not np.any(mask):
             break
         z[mask] = z[mask]**2 + c[mask]
         iter_count[mask] = i
