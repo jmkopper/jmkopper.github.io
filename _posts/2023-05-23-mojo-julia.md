@@ -48,7 +48,7 @@ Since the Mojo notebook ran on 32 threads and my Julia code ran on 8, it's hard 
 
 Dubious experimental methodology notwithstanding, it's clear that Mojo has a lot to offer in terms of performance. The downside, at present, is that it's complicated to attain those performance benefits. Julia, in comparison, makes it absurdly easy to boost performance. All I had to do to improve very basic Julia code was add three macros, one of which was from the Julia base.
 
-I predict that the Julia vs. Mojo war will be conducted on the battlefield of simplicity. If Mojo is able to provide high-level abstractions to easily leverage techniques like SIMD and parallelization, then Mojo will be a serious contender for scientific computing supremacy. Since this seems to be, more-or-less, an explicit goal of Mojo, I think its outlook is bright.
+I predict that the Julia vs. Mojo war will be conducted on the battlefield of simplicity. If Mojo is able to provide high-level abstractions to easily leverage techniques like SIMD and parallelization, then Mojo will be a serious contender for scientific computing supremacy. Since providing these abstractions seems to be, more-or-less, an explicit goal of Mojo, I think its outlook is bright.
 
 Adoption is king, and Julia fans are (rightly) worried that Mojo will leech away some of its potential userbase. There is still room for both, though: scientific computing is *not* a stated target domain for Mojo; its focus is AI infrastructure. The scientific computing community is notoriously resistant to change (many people still use MATLAB, of all things) and the benefits of Mojo, in terms of pure scientific computing, may prove too negligible to be a significant draw.
 
