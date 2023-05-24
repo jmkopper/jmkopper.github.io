@@ -32,7 +32,7 @@ Here's what you came for.
 | Language           | Execution time (ms) | Improvement over Python |
 |--------------------|---------------------|-------------------------|
 | Python (numpy)     | 1997.51             | 1x                      |
-| Julia unoptimized  | 735.65              | 2.7x                    |
+| Julia unoptimized  | 141.23              | 14.1x                   |
 | Julia paralellized | 93.52               | 21.3x                   |
 | Julia optimized    | 33.65               | 59.4x                   |
 
