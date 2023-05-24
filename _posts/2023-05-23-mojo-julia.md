@@ -40,7 +40,7 @@ Here's what you came for.
 
 | Language | Execution time (ms) | Improvement over Python |
 |----------|---------------------|-------------------------|
-| Python (Mojo notebook) | 735.7 | 1x
+| Python (numpy) | 735.7 | 1x
 | Mojo SIMD | 10.36 | 71x
 | Mojo optimized | 4.76 | 154.5x
 
