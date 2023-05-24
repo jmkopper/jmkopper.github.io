@@ -28,14 +28,16 @@ To this end, we will implement the Mandelbrot set in all three languages and com
 Here's what you came for.
 
 ### Local computations
-| Language | Execution time (ms) | Improvement over Python |
-|----------|---------------------|-------------------------|
-| Python  | 1997.51             | 1x                      |
-| Julia unoptimized   | 735.65              | 2.7x|
-| Julia parallelized | 93.52 | 21.3x |
-| Julia optmized | 33.65 | 59.36x
+
+| Language           | Execution time (ms) | Improvement over Python |
+|--------------------|---------------------|-------------------------|
+| Python (numpy)     | 1997.51             | 1x                      |
+| Julia unoptimized  | 735.65              | 2.7x                    |
+| Julia paralellized | 93.52               | 21.3x                   |
+| Julia optimized    | 33.65               | 59.4x                   |
 
 ### Mojo notebook computations
+
 | Language | Execution time (ms) | Improvement over Python |
 |----------|---------------------|-------------------------|
 | Python (Mojo notebook) | 735.7 | 1x
