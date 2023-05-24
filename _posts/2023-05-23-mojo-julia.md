@@ -175,7 +175,7 @@ heatmap(mandyB, aspect_ratio=:equal, color=:grays, xticks=[], yticks=[], cbar=fa
 
 ## Hello, Mojo
 
-For Mojo, I copied the code directly from the [Mandelbrot notebook](https://docs.modular.com/mojo/notebooks/Mandelbrot.html) (I changed the escape threshold to 2 to match the above code), which you can browse for yourself. It takes quite a bit more work than the NumPy and Julia implementations.
+For Mojo, I copied the code directly from the [Mandelbrot notebook](https://docs.modular.com/mojo/notebooks/Mandelbrot.html), which you can browse for yourself. It takes quite a bit more work than the NumPy and Julia implementations.
 
 Interestingly, the notebook ran on 32 threads, rather than the 8 that the demo notebook had. I guess they've souped up the hardware since writing their article.
 
