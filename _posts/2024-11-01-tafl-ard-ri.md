@@ -1,7 +1,7 @@
 ---
-title: 'Ard Ri in Rust'
+title: 'Ard Ri in Rust, Part 1'
 date: 2024-11-01
-permalink: /posts/2024/11/tafl-rust/
+permalink: /posts/2024/11/tafl-rust-1/
 tags:
   - tafl
   - ard ri
