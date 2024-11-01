@@ -41,7 +41,7 @@ By convention, the defender will use the black pieces and the attacker the white
 <img src="/images/ardri_no_capture.png" width="500px"/>
 
 - The king is captured by *full custodianship*, which means that it must be surrounded by four attackers or three attackers and an off-limit square or two attackers, an off-limit square, and the edge of the board.
-- 
+
 <img src="/images/king_capture0.png" width="500px"/>
 
 <img src="/images/king_capture1.png" width="500px"/>
