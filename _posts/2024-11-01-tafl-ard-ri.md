@@ -530,7 +530,7 @@ fn gen_moves_one_piece(index: u64, occupied: Bitboard) -> Vec<PiecelessMove> {
         let new_row = row as isize + dr;
         let new_col = col as isize + dc;
         if !inbounds(new_row, new_col) {
-            break
+            continue;
         }
         let new_index = rc_to_index(new_row as u64, new_col as u64);
         if occupied & (1 << new_index) == 0 {
