@@ -459,15 +459,12 @@ We wrap all the move types up into a single method.
 // board.rs
 impl Board {
     pub fn make_move(&self, m: Move) -> Board {
-        let new_b: Board;
         if m.king_move {
-            new_b = self.make_king_move(m);
+            return self.make_king_move(m);
         } else if self.attacker_move {
-            new_b = self.make_attacker_move(m);
-        } else {
-            new_b = self.make_defender_move(m);
+            return self.make_attacker_move(m);
         }
-        return new_b;
+        return self.make_defender_move(m);;
     }
 }
 ```
