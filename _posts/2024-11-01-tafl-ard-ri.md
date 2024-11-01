@@ -529,14 +529,15 @@ fn gen_moves_one_piece(index: u64, occupied: Bitboard) -> Vec<PiecelessMove> {
     for &(dr, dc) in DIRS.iter() {
         let new_row = row as isize + dr;
         let new_col = col as isize + dc;
-        if inbounds(new_row, new_col) {
-            let new_index = rc_to_index(new_row as u64, new_col as u64);
-            if occupied & (1 << new_index) == 0 {
-                moves.push(PiecelessMove {
-                    from: (row, col),
-                    to: (new_row as u64, new_col as u64),
-                });
-            }
+        if !inbounds(new_row, new_col) {
+            break
+        }
+        let new_index = rc_to_index(new_row as u64, new_col as u64);
+        if occupied & (1 << new_index) == 0 {
+            moves.push(PiecelessMove {
+                from: (row, col),
+                to: (new_row as u64, new_col as u64),
+            });
         }
     }
 
