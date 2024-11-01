@@ -23,7 +23,7 @@ I ANSWER that it is possible to write an Ard Ri engine in Rust. We will choose t
 
 - The game is played on a 7x7 grid with 16 attackers, 8 defenders and one king configured as on the Wikipedia article
 
-<img src="/images/ardri_setup.png" width="400px"/>
+<img src="/images/ardri_setup.png" width="500px"/>
 
 By convention, the defender will use the black pieces and the attacker the white pieces. We note that this is the exact opposite convention that everyone else uses; it's only convenient because it preserves the chess convention. Since you probably haven't heard of Ard Ri, I think it'll be okay.
 
@@ -34,19 +34,19 @@ By convention, the defender will use the black pieces and the attacker the white
 - The shaded gray squares (the four corners and the central square) are off limits to all pieces except the king.
 - A non-king piece is captured by *double custodianship*, i.e., if a piece has two enemy pieces on either side of it so that all three pieces form a vertical or horizontal segment. The middle piece is captured and removed from the board. The example below shows a black piece being captured.
 
-![](/images/ardri_valid_capture.png)
+<img src="/images/ardri_valid_capture.png" width="500px"/>
 
 - A piece is only captured when the other player makes a move into capturing position. That is, if a white piece is moved between two black pieces or vice-versa, then that piece is not captured. In the example below, there is no capture.
 
-![](/images/ardri_no_capture.png)
+<img src="/images/ardri_no_capture.png" width="500px"/>
 
 - The king is captured by *full custodianship*, which means that it must be surrounded by four attackers or three attackers and an off-limit square or two attackers, an off-limit square, and the edge of the board.
+- 
+<img src="/images/king_capture0.png" width="500px"/>
 
-![](/imagesking_capture0.png)
+<img src="/images/king_capture1.png" width="500px"/>
 
-![](/images/king_capture1.png)
-
-![](/images/king_capture2.png)
+<img src="/images/king_capture2.png" width="500px"/>
 
 ## Representing the game in Rust
 
