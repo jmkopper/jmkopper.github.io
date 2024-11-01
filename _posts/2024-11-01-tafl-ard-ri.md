@@ -23,7 +23,7 @@ I ANSWER that it is possible to write an Ard Ri engine in Rust. We will choose t
 
 - The game is played on a 7x7 grid with 16 attackers, 8 defenders and one king configured as on the Wikipedia article
 
-![](/images/ardri_setup.png)
+<img src='/images/ardri_setup.png', style="width: 50%; height: 50%">
 
 By convention, the defender will use the black pieces and the attacker the white pieces. We note that this is the exact opposite convention that everyone else uses; it's only convenient because it preserves the chess convention. Since you probably haven't heard of Ard Ri, I think it'll be okay.
 
