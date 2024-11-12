@@ -23,7 +23,7 @@ But for now, just the easy thing. We need to implement two components:
 - An *evaluation function* that assigns a numeric score to an Ard Ri position.
 - The *minimax* algorithm for searching through the game tree.
 
-In the wild world of chess programming evaluation functions can get quite complicated. In practice, most chess engines use a [NNUE](https://en.wikipedia.org/wiki/Efficiently_updatable_neural_network). We'll get to that, but it turns out you can get pretty far with a brain dead evaluation function.
+In the wild world of chess programming evaluation functions can get quite complicated. In practice, most chess engines use a [NNUE](https://en.wikipedia.org/wiki/Efficiently_updatable_neural_network). We'll get to that, but it turns out you can get pretty far with a braindead evaluation function.
 
 ## A braindead evaluation function
 
