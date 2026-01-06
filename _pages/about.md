@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a Lead Data Scientist at Enova international. Before that, I was a postdoc in the Penn State University math department. I completed my Ph.D. in 2019 at UIC under the supervision of Izzet Coskun. I was a math major at UChicago before that.
+I do machine learning and AI for finance at JPMorgan Chase. In a previous life, I was a research mathematician.
 
 I like distance running, trail running, ultramarathon running, and mountain running. Here's my [Strava profile](https://www.strava.com/athletes/2853118).
