@@ -10,17 +10,20 @@ redirect_from:
 
 <section class="hero" aria-labelledby="intro-title">
   <div>
-    <p class="eyebrow">About</p>
     <h1 id="intro-title">John Kopper</h1>
     <p class="lede">I work on machine learning and AI at JPMorgan Chase. Earlier, I was a research mathematician in algebraic geometry.</p>
     <div class="hero__actions" aria-label="Profile links">
       <a class="button-link" href="mailto:{{ site.author.email }}">Email</a>
       <a class="button-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
       <a class="button-link" href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a class="button-link" href="/publications/">Publications</a>
       <a class="button-link" href="https://www.strava.com/athletes/2853118">Strava</a>
     </div>
   </div>
-  <img class="hero__photo" src="/images/kopperpic-cropped.jpg" alt="John Kopper">
+  <aside class="hero__note" aria-label="Current focus">
+    <p class="eyebrow">Current</p>
+    <p>Machine learning, AI systems, and practical data work in Chicago.</p>
+  </aside>
 </section>
 
 <section class="section about-grid" aria-label="Background">
@@ -40,5 +43,3 @@ redirect_from:
     <p>I like distance running, trail running, ultramarathon running, and mountain running.</p>
   </article>
 </section>
-
-{% include publications-list.html heading="Selected publications" intro=true %}
