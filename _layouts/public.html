@@ -1,0 +1,31 @@
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8faf9">
+    <link rel="stylesheet" href="{{ '/assets/css/public.css' | prepend: base_path }}">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | prepend: base_path }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/' | prepend: base_path }}">About</a>
+        <a href="{{ '/publications/' | prepend: base_path }}">Publications</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</p>
+      <p><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<section class="section publications" id="publications" aria-labelledby="publications-title">
+  <div class="section__header">
+    <p class="eyebrow">Research</p>
+    {% if include.heading_tag == "h1" %}
+      <h1 id="publications-title">{{ include.heading | default: "Publications" }}</h1>
+    {% else %}
+      <h2 id="publications-title">{{ include.heading | default: "Publications" }}</h2>
+    {% endif %}
+    {% if include.intro %}
+      <p class="section__dek">Algebraic geometry publications, listed with current journal citation details and DOI links.</p>
+    {% endif %}
+  </div>
+
+  <ol class="publication-list">
+    {% for publication in site.data.publications %}
+      <li class="publication">
+        <h3>{{ publication.title }}</h3>
+        <p class="publication__authors">{{ publication.authors }}</p>
+        <p class="publication__citation">
+          <em>{{ publication.venue }}</em>
+          {% if publication.volume_issue %} {{ publication.volume_issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}{% if publication.article %}, article {{ publication.article }}{% endif %}, {{ publication.year }}.
+        </p>
+        <a class="doi-link" href="https://doi.org/{{ publication.doi }}">doi:{{ publication.doi }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+</section>

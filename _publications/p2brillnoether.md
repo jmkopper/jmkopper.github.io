@@ -1,14 +1,7 @@
 ---
-title: "The cohomology of general tensor products on the plane"
+title: "The cohomology of general tensor products of vector bundles on P^2"
 collection: publications
 permalink: /publication/p2brillnoether
-excerpt: 'We compute the cohomology of general tensor products of stable bundles on the projective plane.'
-date: 2021-11-01
-venue: 'Selecta Mathematica'
-paperurl:
-citation: 'I. Coskun, J. Huizenga, and J. Kopper. The cohomology of general tensor products on the plane. <i>Selecta Mathematica</i> 27 no. 5 (2021), article number 94.'
+redirect_to: https://doi.org/10.1007/s00029-021-00707-5
+sitemap: false
 ---
-
-https://doi.org/10.1007/s00029-021-00707-5
-
-[Download paper here](http://jmkopper.github.io/files/P2BrillNoether.pdf)
